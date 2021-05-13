@@ -1,0 +1,19 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+button[data-action="start"] {
+    background-color: coral;
+    margin-right: 10px;
+}
+
+button[data-action="stop"] {
+    background-color:lightblue;
+}
